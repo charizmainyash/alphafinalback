@@ -62,9 +62,9 @@ async function handleEnquiry(req,res)
         
             var mailOptions2 = {
             from: 'youremail@gmail.com',
-            to: 'ikanisak.uc@gmail.com',
+            to: 'mehrapriyam01@gmail.com',
             subject: 'Recived enquiry for Alphazealmedia',
-            text: body.name+' '+body.email+' '+body.inquiry
+            text: 'Name : '+body.name+'\nEmail : '+body.email+'\nInquiry '+body.inquiry
             };
         
             transporter.sendMail(mailOptions2, function(error, info){

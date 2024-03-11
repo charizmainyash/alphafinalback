@@ -2,7 +2,7 @@ const express=require("express");
 const { connnectionFunction }=require("./config.js");
 const {handleEnquiry, handleWork, handleAdmin,handleAllData,handleAllWork,handleQueryResolve,removeWork }=require("./controllers/alpha.js");
 const app=express();
-const PORT=8009;
+const PORT=8008;
 const URL="mongodb+srv://aryashanish:9525633767@cluster0.j7tl5vl.mongodb.net/alphazeal?retryWrites=true&w=majority";
 const cors=require("cors");
 
